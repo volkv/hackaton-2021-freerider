@@ -21,3 +21,4 @@ _ide_helper.php
 composer.lock
 .bash_history
 package-lock.json
+storage/routes.json

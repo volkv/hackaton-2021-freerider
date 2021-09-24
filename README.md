@@ -7,6 +7,4 @@
 ### Сборка
 
 * `make docker-build`
-* `make composer-install`
-* `make npm-install`
-* `make npm-dev`
+* `make setup-local`

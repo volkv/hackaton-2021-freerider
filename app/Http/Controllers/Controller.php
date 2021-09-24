@@ -17,7 +17,7 @@ class Controller extends BaseController
     public function getRoutes()
     {
 
-        $routes = Route::orderBy('id')->limit(10)->get()->toArray();
+        $routes = Route::orderBy('id')->limit(50)->get()->toArray();
 
         return response()->json($routes);
     }

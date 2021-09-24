@@ -17,10 +17,8 @@ CQFetchGET('/routes')
         for (k in response){
             let latlngs =  response[k]['points']
 
-            var polyline = L.polyline(latlngs, {color: 'red'}).addTo(map);
+            var polyline = L.polyline(latlngs, {color: Math.random() < 0.5 ? 'green':'red'}).addTo(map);
 
-
-            map.fitBounds(polyline.getBounds());
         }
     })
 
