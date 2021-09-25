@@ -21,6 +21,20 @@ class Test extends Command
         $routes = json_decode($routes, true);
 
 
+        $stops = file_get_contents(storage_path('/stops.json'));
+
+        $stops = json_decode($stops, true);
+
+        foreach ($stops as $stop) {
+            $points = [$stop['geoData']['coordinates'][1], $stop['geoData']['coordinates'][0]];
+            Stop::updateOrCreate([ 'id' => $stop['stop_id']],[
+                'id' => $stop['stop_id'],
+                'stop_name' => $stop['stop_name'],
+                'points' => $points,
+            ]);
+
+        }
+
 
         foreach ($routes as $route) {
 
