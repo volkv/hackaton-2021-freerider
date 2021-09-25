@@ -18,7 +18,7 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
 }).addTo(map);
 
 
-CQFetchGET('/routes')
+CQFetchGET('/api/v1/routes')
     .then((response) => {
         for (let k in response) {
             let latlngs = response[k]['points']
