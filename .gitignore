@@ -22,3 +22,4 @@ composer.lock
 .bash_history
 package-lock.json
 storage/routes.json
+storage/stops.json
