@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Route;
+use App\Models\Stop;
 use Illuminate\Routing\Controller as BaseController;
 
 class Controller extends BaseController
@@ -18,6 +19,14 @@ class Controller extends BaseController
     {
 
         $routes = Route::orderBy('id')->limit(50)->get()->toArray();
+
+        return response()->json($routes);
+    }
+
+    public function getStops()
+    {
+
+        $routes = Stop::orderBy('id')->limit(100)->get()->toArray();
 
         return response()->json($routes);
     }

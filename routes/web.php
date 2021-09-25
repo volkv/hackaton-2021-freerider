@@ -16,3 +16,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [Controller::class, 'index']);
 Route::get('/routes', [Controller::class, 'getRoutes']);
+Route::get('/stops', [Controller::class, 'getStops']);

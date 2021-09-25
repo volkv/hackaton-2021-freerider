@@ -31,5 +31,5 @@ class Route extends Model
     protected $guarded = [];
     public $incrementing = false;
     public $timestamps = false;
-    protected $casts = ['points' => 'array'];
+    protected $casts = ['points' => 'array', 'buses'=>'array'];
 }

@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="{{mix('css/app.css')}}"/>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" crossorigin=""/>
 
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" crossorigin=""></script>
-
 
 </head>
 

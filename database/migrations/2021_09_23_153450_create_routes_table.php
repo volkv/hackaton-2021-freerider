@@ -16,8 +16,17 @@ class CreateRoutesTable extends Migration
         Schema::create('routes', function (Blueprint $table) {
             $table->unsignedInteger('id')->primary();
             $table->json('points');
+            $table->json('buses');
             $table->string('route_name');
             $table->string('route_number');
+
+
+        });
+
+        Schema::create('stops', function (Blueprint $table) {
+            $table->unsignedInteger('id')->primary();
+            $table->json('points');
+            $table->string('stop_name');
 
 
         });
@@ -31,5 +40,6 @@ class CreateRoutesTable extends Migration
     public function down()
     {
         Schema::dropIfExists('routes');
+        Schema::dropIfExists('stops');
     }
 }

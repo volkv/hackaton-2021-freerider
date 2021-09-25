@@ -18,6 +18,7 @@
         "postcss": "^8.1.14"
     },
     "dependencies": {
+        "leaflet": "^1.7.1",
         "rellax": "^1.12.1"
     }
 }
