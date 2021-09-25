@@ -24,14 +24,12 @@
 * PostgreSQL `13`
 * Nginx `1.19.3`
 * Redis `6.0.9`
+* Vanilla JS
 
 ## Технологии
 
 * Docker / Compose
-* Очереди Redis
 * Кэш Redis
-* Планировщик Laravel
-* Events / Notification Channels
 
 ## Методы API
 
