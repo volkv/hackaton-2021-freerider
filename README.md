@@ -34,10 +34,10 @@
 ## Методы API
 
 ### Список маршрутов
-> GET /api/v1/routes
+> GET  [/api/v1/routes](https://freerider.volkv.com/api/v1/routes)
 
 ### Список остановок
-> GET /api/v1/stopes
+> GET [/api/v1/stopes](https://freerider.volkv.com/api/v1/stopes)
 
 *использованы данные с портала открытых данных Правительства Москвы - https://data.mos.ru/opendata
 
