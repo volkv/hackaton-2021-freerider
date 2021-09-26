@@ -17,7 +17,7 @@
 * Статистическое графическое отображение показателя неоплат на всем маршруте.
 
 
-<img src="https://freerider.volkv.com/media/234.png" width="500px" height="auto" alt="ТИМ">
+<img src="https://freerider.volkv.com/media/234.png" width="575px" height="auto" alt="ТИМ">
 
 ### Демонстрация работы:
  https://freerider.volkv.com
